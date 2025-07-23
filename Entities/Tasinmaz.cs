@@ -11,9 +11,13 @@
 
         //Foreign Key
         public int MahalleId { get; set; }
-        
+        public int UserId { get; set; }
+
         // Navigasyon özelliği
         public Mahalle Mahalle { get; set; }
+        public User User { get; set; }
+
+
 
 
     }
